@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Heebo:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(bg.jpg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+}
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+    font-size: 38px;
+    border-bottom: 5px solid purple; 
+    margin-bottom: 1px;
+    padding: 13px 0;
+
+}
+.box{
+    width: 115%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+   
+
+}
+
+
+.box input{
+    font-family: 'Dosis', sans-serif;
+    background: none;
+    width: 75%;
+    padding: 5px 18px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box i{
+    width: 18px;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 6px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+
+    
+}
+
+.btn:hover{
+    color: purple;
+    background: white;
+    opacity:0.6;
+}
